@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Party Invite</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis sem odio. Sed commodo vestibulum leo, sit amet tempus odio consectetur in.</p>
+
+    <p><em>The name, email, and photo associated with your Google account will be recorded when you upload files and submit this form.</em></p>
+    <p><span>* Indicates required question</span></p>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <label for="cv">cv<span>*</span></label><br>
+        <input type="file" id="cv" name="cv" required><br><br>
+
+        <label for="rating">Rate yourself <span>*</span></label><br>
+        <input type="radio" id="rate1" name="rating" value="1"> 1
+        <input type="radio" id="rate2" name="rating" value="2"> 2
+        <input type="radio" id="rate3" name="rating" value="3"> 3
+        <input type="radio" id="rate4" name="rating" value="4"> 4
+        <input type="radio" id="rate5" name="rating" value="5"> 5
+        <br><br>
+
+        <label for="stars">Rate</label><br>
+        <input type="radio" id="star1" name="stars" value="1"> 1 ☆
+        <input type="radio" id="star2" name="stars" value="2"> 2 ☆
+        <input type="radio" id="star3" name="stars" value="3"> 3 ☆
+        <input type="radio" id="star4" name="stars" value="4"> 4 ☆
+        <input type="radio" id="star5" name="stars" value="5"> 5 ☆
+        <br><br>
+
+
+        <form action="#" method="post">
+        
+        <label for="name">What is your name?</label><br>
+        <input type="text" id="name" name="name" placeholder="Your answer"><br><br>
+
+        <label>Can you attend? <span>*</span></label><br>
+        <input type="radio" id="yes" name="attendance" value="yes" required>
+        <label for="yes">Yes, I'll be there</label><br>
+        <input type="radio" id="no" name="attendance" value="no">
+        <label for="no">Sorry, can't make it</label><br><br>
+
+        <label for="attend">How many of you are attending?</label><br>
+        <input type="text" id="attend" name="attend" placeholder="Your answer"><br><br>
+
+        <label>What will you be bringing?</label><br>
+        <p>Let us know what kind of dish(es) you'll be bringing</p>
+        <input type="checkbox" id="mains" name="dish" value="Mains">
+        <label for="mains">Mains</label><br>
+        <input type="checkbox" id="salad" name="dish" value="Salad">
+        <label for="salad">Salad</label><br>
+        <input type="checkbox" id="dessert" name="dish" value="Dessert">
+        <label for="dessert">Dessert</label><br>
+        <input type="checkbox" id="drinks" name="dish" value="Drinks">
+        <label for="drinks">Drinks</label><br>
+        <input type="checkbox" id="sides/appetizers" name="dish" value="Sides/Appetizers">
+        <label for="sides/appetizers">Sides/Appetizers</label><br>
+        <input type="text" id="other" name="other" placeholder="Other:"><br><br>
+
+
+        <label for="attend">Do you have any allergies or dietary restrictions?</label><br>
+        <input type="text" id="restrictions" name="restrictions" placeholder="Your answer"><br><br>
+
+
+        <label for="attend">What is your email address?</label><br>
+        <input type="week" id="email" name="email" placeholder="Your answer"><br><br>
+
+        <button type="submit">Submit</button>
+        </form>
+            
+</body>
+</html>
